@@ -66,6 +66,7 @@ namespace HaloBead
                         HalozatCim = korrigaltIP;
                         kiindulLabel.Content = HalozatCim;
                         int db = 0;
+                        alhalozatok.Clear();
                         while (db != haloDB)
                         {
                             var Ablak = new HalozatMegadWindow(db);
